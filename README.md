@@ -6,3 +6,4 @@ and Zi the degree of the node i) with the formula of :Cij=(number of 3 node cycl
 two version of the algorithm exist,one parallel,which uses multiprocessing,and one which only works with one core.
 the tests and results are in csv format,which are compatible with the gephi software.
 keep in mind that the algorithm stops when the graph becomes disconnected,and in order to continue the algorithm,we have to run the algorithm recursivly on the disconnectd parts.
+the algorithm uses a sort algorithm(bubble,merge,quick and insertion) and findest the edge with the minumum weight.(we can also use the min function,which improves the complexity).
