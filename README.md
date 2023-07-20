@@ -37,7 +37,7 @@ The output of each execution of the program contains the following items:
 3. The graph of the time spent in the sorting step from the beginning to the end of the algorithm.
 4. A CSV file whose lines contain the number of each vertex along with its community (A or B)
 
-two version of the algorithm exist,one parallel,which uses multiprocessing,and one which only works with one core.
+two version of the algorithm exist,one parallel,which uses multiprocessing(CommunityDetectorPar.py),and one which only works with one core.
 the tests and results are in csv format,which are compatible with the gephi software.
 keep in mind that the algorithm stops when the graph becomes disconnected,and in order to continue the algorithm,we have to run the algorithm recursivly on the disconnectd parts.
 
